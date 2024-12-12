@@ -1,5 +1,6 @@
 #!/bin/sh
 
+exit 0
 # Only use buildpack if youtube-dl is not installed yet
 if command -v yt-dlp >/dev/null 2>&1; then
   echo "yt-dlp download bailing as it already exists"
